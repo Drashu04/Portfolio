@@ -142,7 +142,7 @@ export default function Home() {
                         <span className="cursor"></span>
                     </div>
                     <div className="d-flex justify-content-center align-items-center">
-                        <a href="/assets/resume.pdf" download="Drashti_FullStack-NextJS_resume.pdf" className="custom-btn me-3">
+                        <a href="./assets/resume.pdf" download="Drashti_FullStack-NextJS_resume.pdf" className="custom-btn me-3">
                             Download CV
                         </a>
                         {1 != 1 ? (
@@ -171,99 +171,99 @@ export default function Home() {
                         <div className="skill-group">
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/nextjs.png" alt="Next.js icon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/nextjs.png" alt="Next.js icon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">Next.js</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/react.png" alt="React.jsicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/react.png" alt="React.jsicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">React.js</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/nodejs.png" alt="Node.jsicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/nodejs.png" alt="Node.jsicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">Node.js</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/typescript.png" alt="TypeScripticon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/typescript.png" alt="TypeScripticon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">TypeScript</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/javascript.png" alt="JavaScripticon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/javascript.png" alt="JavaScripticon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">JavaScript</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/jquery.png" alt="jQueryicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/jquery.png" alt="jQueryicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">jQuery</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/html.png" alt="HTMLicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/html.png" alt="HTMLicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">HTML</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/css.png" alt="CSSicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/css.png" alt="CSSicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">CSS</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/bootstrap.png" alt="Bootstrapicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/bootstrap.png" alt="Bootstrapicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">Bootstrap</span>
                             </div>
 
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/angular.png" alt="AngularJSicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/angular.png" alt="AngularJSicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">AngularJS</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/websocket.png" alt="WebSocketicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/websocket.png" alt="WebSocketicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">WebSocket</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/mysql.png" alt="MySQLicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/mysql.png" alt="MySQLicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">MySQL</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/mongodb.png" alt="MongoDBicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/mongodb.png" alt="MongoDBicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">MongoDB</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/postgresql.png" alt="PostgreSQLicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/postgresql.png" alt="PostgreSQLicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">PostgreSQL</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/api.png" alt="API Integrationicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/api.png" alt="API Integrationicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">API Integration</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
                                     <Image
-                                        src="/assets/images/skills/tailwind.png"
+                                        src="./assets/images/skills/tailwind.png"
                                         alt="API Integrationicon"
                                         width={50}
                                         height={50}
@@ -273,7 +273,7 @@ export default function Home() {
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/git.png" alt="API Integrationicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/git.png" alt="API Integrationicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">Git & Github</span>
                             </div>
@@ -282,99 +282,99 @@ export default function Home() {
                         <div className="skill-group">
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/nextjs.png" alt="Next.jsicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/nextjs.png" alt="Next.jsicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">Next.js</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/react.png" alt="React.jsicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/react.png" alt="React.jsicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">React.js</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/nodejs.png" alt="Node.jsicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/nodejs.png" alt="Node.jsicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">Node.js</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/typescript.png" alt="TypeScripticon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/typescript.png" alt="TypeScripticon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">TypeScript</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/javascript.png" alt="JavaScripticon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/javascript.png" alt="JavaScripticon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">JavaScript</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/jquery.png" alt="jQueryicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/jquery.png" alt="jQueryicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">jQuery</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/html.png" alt="HTMLicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/html.png" alt="HTMLicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">HTML</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/css.png" alt="CSSicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/css.png" alt="CSSicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">CSS</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/bootstrap.png" alt="Bootstrapicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/bootstrap.png" alt="Bootstrapicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">Bootstrap</span>
                             </div>
 
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/angular.png" alt="AngularJSicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/angular.png" alt="AngularJSicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">AngularJS</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/websocket.png" alt="WebSocketicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/websocket.png" alt="WebSocketicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">WebSocket</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/mysql.png" alt="MySQLicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/mysql.png" alt="MySQLicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">MySQL</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/mongodb.png" alt="MongoDBicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/mongodb.png" alt="MongoDBicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">MongoDB</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/postgresql.png" alt="PostgreSQLicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/postgresql.png" alt="PostgreSQLicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">PostgreSQL</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/api.png" alt="API Integrationicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/api.png" alt="API Integrationicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">API Integration</span>
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
                                     <Image
-                                        src="/assets/images/skills/tailwind.png"
+                                        src="./assets/images/skills/tailwind.png"
                                         alt="API Integrationicon"
                                         width={50}
                                         height={50}
@@ -384,7 +384,7 @@ export default function Home() {
                             </div>
                             <div className="skill-item">
                                 <div className="skill-icon">
-                                    <Image src="/assets/images/skills/git.png" alt="API Integrationicon" width={50} height={50}></Image>
+                                    <Image src="./assets/images/skills/git.png" alt="API Integrationicon" width={50} height={50}></Image>
                                 </div>
                                 <span className="skill-name">Git & Github</span>
                             </div>

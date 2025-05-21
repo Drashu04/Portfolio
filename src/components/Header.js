@@ -42,7 +42,7 @@ export default function Header() {
         <nav className="navbar navbar-expand-md fixed-top">
             <div className="container d-flex justify-content-between align-items-center">
                 <Link className="navbar-brand d-flex align-items-center" href="/">
-                    <Image src="/assets/images/logo.png" alt="Logo" width={170} height={50}></Image>
+                    <Image src="./assets/images/logo.png" alt="Logo" width={170} height={50}></Image>
                 </Link>
 
                 <button className="navbar-toggler" type="button" onClick={toggleMenu} aria-label="Toggle navigation">
