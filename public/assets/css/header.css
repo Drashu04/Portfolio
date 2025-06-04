@@ -59,12 +59,14 @@ body {
 }
 
 .nav-link:hover {
-    color: #15f2b3;
+    color: #fce027;
 }
 
 .nav-link.active {
-    color: #15f2b3;
+    background: -webkit-linear-gradient(305deg, rgb(36, 255, 215) 0%, #fce027 35%, rgb(255, 125, 0) 65%, rgb(254, 254, 190) 100%);
     font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-link::after {
@@ -74,7 +76,7 @@ body {
     height: 2px;
     bottom: -2px;
     left: 0;
-    background: #15f2b3;
+    background: #e8e337;
     transition: width 0.3s ease;
 }
 
@@ -97,6 +99,18 @@ body {
     box-shadow: none;
 }
 
+@media (min-width: 992px) {
+    .navbar-expand-md .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-md .navbar-toggler {
+        display: block;
+    }
+}
+
 @media (max-width: 991px) {
     .navbar {
         padding: 10px 0;
@@ -104,7 +118,7 @@ body {
 
     .navbar.scrolled {
         padding: 6px 0;
-        height: 60px;
+        height: 70px;
     }
 
     .nav-links {
@@ -131,17 +145,25 @@ body {
 
     .nav-links.show {
         display: flex;
+        padding: 10px 0;
     }
 
     .navbar-nav {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: column !important;
+        align-items: start !important;
         gap: 0.5rem;
+        display: flex;
+        width: 100vw;
+    }
+
+    .navbar-nav .nav-item {
+        padding-left: 10px;
     }
 
     .nav-link {
         font-size: 1.2rem;
-        padding: 10px 0;
+        /* padding: 10px 0; */
+        padding: 3px 0 6px 10px;
         width: 100%;
         text-align: center;
     }
@@ -168,9 +190,6 @@ body {
 }
 
 @media (max-width: 400px) {
-    .navbar-brand img {
-        height: 30px;
-    }
 
     .nav-link {
         font-size: 0.9rem;

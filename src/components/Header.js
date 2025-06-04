@@ -79,7 +79,10 @@ export default function Header() {
                         {[
                             { id: "home", label: "Home" },
                             { id: "skill", label: "Skill" },
+                            { id: "project", label: "Projects" },
+                            { id: "experience", label: "Experience" },
                             { id: "about", label: "About" },
+                            { id: "contact", label: "Contact" },
                         ].map(({ id, label }) => (
                             <li key={id} className="nav-item">
                                 <a

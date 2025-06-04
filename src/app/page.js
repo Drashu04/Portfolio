@@ -360,12 +360,12 @@ export default function Home() {
             </section>
 
             <section className="about-section" id="about">
-                <div className="about-background">
+                <div className="about-background container">
                     <div className="about-circles" id="about-circles"></div>
                     <div className="about-container">
                         <h2 className="about-title">About Me</h2>
-                        <p className="skills-description">                            Crafting digital experiences with passion, precision, and innovation                        </p>
-
+                        <p className="skills-description">
+                            Crafting digital experiences with passion, precision, and innovation</p>
                         <div className="about-content">
                             <div className="about-card">
                                 <div className="about-card-header">

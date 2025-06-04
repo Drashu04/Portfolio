@@ -21,7 +21,7 @@ const varelaRound = Varela_Round({
 // We'll need to include it via CSS
 
 export const metadata = {
-    title: "Drashti kachhadiya Portfolio",
+    title: "Drashti kachhadiya",
     description: "Full-Stack Developer specializing in Next.js and Node.js",
     icons: {
         icon: [

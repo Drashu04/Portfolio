@@ -382,9 +382,7 @@ body {
 }
 
 .about-container {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
     position: relative;
     z-index: 3;
 }
@@ -513,6 +511,12 @@ body {
     transform: scale(1.05);
     background: linear-gradient(109deg, #0e1705 0%, #161b03 70%) padding-box, linear-gradient(34deg, #749249 0%, #303a0a 70%) border-box;
     border: 1px solid transparent;
+}
+
+.stat-item:hover .stat-number {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(305deg, rgb(36, 255, 215) 0%, #fce027 35%, rgb(255, 125, 0) 65%, rgb(254, 254, 190) 100%)
 }
 
 .stat-number {
@@ -653,7 +657,13 @@ body {
 }
 
 @media (max-width: 768px) {
-    
+    .home-section::before {
+        animation: moveBackground 40s linear infinite;
+    }
+}
+
+@media (max-width: 768px) {
+
     .name {
         font-size: 3rem;
     }
@@ -675,9 +685,6 @@ body {
         font-size: 1rem;
     }
 
-    .skills-scroll {
-        animation-duration: 20s;
-    }
 
     .skill-group {
         gap: 40px;
@@ -697,8 +704,8 @@ body {
     }
 
     .skill-icon img {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
 
     .skill-name {
